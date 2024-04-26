@@ -1,0 +1,53 @@
+body{
+    background-color: #000000;
+    color: #fca311;
+    justify-content: center;
+    text-align: center;
+    /* border: 2px solid #ffd60a ; */
+    border-radius: 10px;
+    width: 200px;
+    margin: 200px auto;
+    height: 200px;
+}
+
+#recordPart{
+    display: flex;
+    margin: 20px auto 0 auto;
+    background-color: #343a40;
+    width: 170px;
+    padding: 1px 10px;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#addBtn{
+    width: 80px;
+    height: 80px;
+    background-color: #ffd60a ;
+    color: #000000;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#addBtn:hover{
+    background-color: #ffc300;
+}
+
+#saveBtn{
+    width: 80px;
+    height: 80px;
+    background-color: #212529 ;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffd60a;
+    border: #ffd60a solid;
+}
+
+#saveBtn:hover{
+    background-color: #343a40;
+}
+
+
+
